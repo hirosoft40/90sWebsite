@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: 
+    url("/images/cherry.jpg")
+}
+header{
+    margin: 0%;
+    padding: 0%;
+    height: 15%;
+}
+h1{
+    margin: 3px;
+    color: #39FF14;
+    font-size: 50px;
+    text-align: center;
+    animation:blinkingText 2s infinite;
+}
+nav{
+    float: left;
+    width: 30%;
+    height: 300px;
+    overflow: scroll;
+    color: silver;
+
+}
+hr{
+    border-bottom-color:grey;
+    border-width: 3px;
+}
+.center{
+    text-align: center;
+}
+
+ul li{
+    font-size: 30px;
+    list-style: none;
+}
+table, th, td{
+    border: 5px;
+    border: 2px solid silver;
+    font-style: bold;
+    font-size: 20px;
+    color: silver;
+}
+
+@keyframes blinkingText{
+    0%{     color: #39FF14;    }
+    49%{    color: yellow; }
+    50%{    color: #39FF14;}
+    99%{    color: yellow;}
+    100%{   color: #39FF14;}
+}
