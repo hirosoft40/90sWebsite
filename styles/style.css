@@ -29,7 +29,7 @@ h1{
 }
 nav{
     float: left;
-    width: 30%;
+    width: 20%;
     height: 300px;
     overflow: scroll;
     color: silver;
@@ -38,6 +38,13 @@ nav{
 hr{
     border-bottom-color:grey;
     border-width: 3px;
+}
+h6{
+    color: silver;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
 }
 .center{
     text-align: center;
